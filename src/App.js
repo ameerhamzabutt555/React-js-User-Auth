@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Login />}></Route>
           <Route path="/dashboard" element={<Protected Component={Dashboard}/>}></Route>
-          <Route path="*" element={<Page />}></Route>
+          <Route path="* " element={<Page />}></Route>
         </Routes>
         </BrowserRouter>
         </div>
