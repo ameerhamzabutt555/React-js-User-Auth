@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 function Dashboard() {
   const navigate = useNavigate()
   function logout(){
-    localStorage.removeItem('login')
+    localStorage.removeItem('token')
     navigate('/')
 
   }
